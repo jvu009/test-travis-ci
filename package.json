@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "lint": "eslint index.js",
+    "mocha": "mocha",
+    "test": "yarn run lint && yarn run mocha"
   },
   "repository": "https://github.com/jvu009/test-travis-ci.git",
   "author": "Joseph Vu <jvu009@ucr.edu>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
     "jshint": "^2.9.4",
     "mocha": "^3.2.0"
   }

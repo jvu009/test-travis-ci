@@ -1,0 +1,14 @@
+{
+  "name": "test-travis-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
+  "repository": "https://github.com/jvu009/test-travis-ci.git",
+  "author": "Joseph Vu <jvu009@ucr.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
